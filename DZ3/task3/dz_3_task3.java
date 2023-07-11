@@ -7,7 +7,7 @@ import java.util.List;
 
 public class dz_3_task3 {
     public static void main(String[] args) {
-        List&lt;String&gt; planets = new ArrayList&lt;&gt;();
+        List<String> planets = new ArrayList<String>();
         planets.add("Меркурий");
         planets.add("Венера");
         planets.add("Земля");

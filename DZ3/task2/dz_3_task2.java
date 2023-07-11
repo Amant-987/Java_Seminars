@@ -8,7 +8,7 @@ import java.util.List;
 
 public class dz_3_task2 {
     public static void main(String[] args) {
-        List&lt;Integer&gt; numbers = new ArrayList&lt;&gt;();
+        List<Integer> numbers = new ArrayList<Integer> ();
         numbers.add(5);
         numbers.add(2);
         numbers.add(8);
@@ -28,7 +28,7 @@ public class dz_3_task2 {
         System.out.println("Среднее арифметическое значение: " + average);
     }
 
-    private static double calculateAverage(List&lt;Integer&gt; numbers) {
+    private static double calculateAverage(List<Integer>  numbers) {
         int sum = 0;
         for (int number : numbers) {
             sum += number;
