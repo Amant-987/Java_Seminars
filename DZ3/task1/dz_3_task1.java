@@ -7,7 +7,7 @@ import java.util.List;
 
 public class dz_3_task1 {
     public static void main(String[] args) {
-        List&lt;Integer&gt; numbers = new ArrayList&lt;&gt;();
+        List<Integer> numbers = new ArrayList<Integer>();
         numbers.add(1);
         numbers.add(2);
         numbers.add(3);
@@ -24,8 +24,8 @@ public class dz_3_task1 {
         }
     }
 
-    private static void removeEvenNumbers(List&lt;Integer&gt; numbers) {
-        Iterator&lt;Integer&gt; iterator = numbers.iterator();
+    private static void removeEvenNumbers(List<Integer> numbers) {
+        Iterator<Integer> iterator = numbers.iterator();
         while (iterator.hasNext()) {
             int number = iterator.next();
             if (number % 2 == 0) {
